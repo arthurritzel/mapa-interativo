@@ -3,54 +3,131 @@
     border: 0;
     padding: 0;
     box-sizing: border-box;
+   
 }
 
+body{
+    background-color: #F4F4F2;
+}
+.div_botao{
+    padding: 20px;
+}
+.botao{
+    margin: 10px;
+    background-color: #5C6652;
+    padding: 8px 15px 8px 15px;
+
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+
+}
+.logo{
+    width: 20%;
+}
 .all{
     width: 100%;
-    min-height: 100vh;
+    min-height: 120vh;
     max-height: auto;
-    /* border: 1px rgb(255, 0, 0) solid; */
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    
+    background-color: white;
+    margin-bottom: 500px;
+}
+.rua{
+    height: 100px;
+    width: 90%;
+    background-color: #414042;
+    display: flex;
+    align-items: center;
     justify-content: center;
-    background-color: rgb(210, 236, 176);
-
+    background-image: url(img/rua.png);
+    background-position: center;
+}
+.rua p{
+    color: white;
+}
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 50px;
 }
 
+.rosa{
+    width: 20%;
+}
 
+.titulo{
+    font-size: 50px;
+    background-color: #5C6652;
+    padding: 15px;
+    border-radius: 20px;
+    color: white;
+}
 
 .img{
    display: flex;
    align-items: center;
-   
+   justify-content: center;
    flex-wrap: wrap;
-   width: 1750px;
-   border: red 1px solid;
+   width: 90%;
+   /* border: red 1px solid; */
    height: auto;
 }
 .img img{
     width: 100%;
     height: 100%;
 }
-.l1, #select, .l2{
-    border: 1px solid rgb(0, 68, 255);
-    height: 250px;
+.l1, .select, .l2{
+    border: 1px solid rgb(0, 0, 0);
+    height: 200px;
     width: 7.14%;
     cursor: pointer;
 }
 
-
+.top, .bottom{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
 
 p{
     font-size: 34px;
 }
 
-.escolhas{
+.overview{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#subtotal{
+    color: white;
+    background-color: #5C6652;
+    padding: 50px;
+    
+ 
+    border-radius: 20px;
+}
+
+.met{
+    font-size: 26px;
+}
+
+.escolhas, .escolhas2{
     width: 100%;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.escolhas img{
+.escolhas img, .escolhas2 img{
     width: 100%;
     height: 100%;
 }
